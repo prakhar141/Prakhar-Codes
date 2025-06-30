@@ -1,4 +1,4 @@
 streamlit
-rapidfuzz
+rapidfuzz==3.6.1
 tqdm
 regex

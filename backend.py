@@ -1,3 +1,7 @@
+import sys
+print(sys.executable)
+print(sys.version)
+
 import os
 try:
     from rapidfuzz import fuzz

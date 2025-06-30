@@ -1,4 +1,7 @@
 streamlit
 rapidfuzz==3.6.1
+pandas
+numpy
 tqdm
+matplotlib
 regex

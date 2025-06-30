@@ -1,3 +1,10 @@
+import os
+try:
+    from rapidfuzz import fuzz
+except ImportError:
+    os.system("pip install rapidfuzz==3.6.1")
+    from rapidfuzz import fuzz
+
 import streamlit as st
 import re
 import pickle

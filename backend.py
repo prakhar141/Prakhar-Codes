@@ -85,7 +85,7 @@ def correct_sentence_advanced(input_sentence, sim_threshold=0.78):
 st.title("🧠 Intelligent Spell Corrector")
 st.markdown("Fixes spelling errors in your sentence using AI trained with Reinforcement Learning.")
 
-input_text = st.text_area("✏️ Enter a sentence with spelling mistakes:", "he go to schol everydy.")
+input_text = st.text_area("✏️ Enter a sentence with spelling mistakes:", "Prakhar  maade me and I am redy to hlp you")
 
 if st.button("🔧 Fix My Sentence"):
     with st.spinner("Analyzing and correcting..."):
